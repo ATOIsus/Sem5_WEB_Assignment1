@@ -1,0 +1,21 @@
+1) npm init -y
+// Create a file called "index.js" 
+2) npm install express
+3) npm install mongoose
+4) npm install nodemon --save-dev
+
+
+5) In "scripts" of "packages.json":
+      "start": "node index.js",
+      "dev"  : "nodemon index.js"
+
+// To start: "node start" but need to restart every time a change is made.
+// So, "npm run dev" should be used.
+
+
+// Create "routes" folder for routes.
+// Create "models" folder to make schema.
+
+
+// model.js is used in route.js
+// route.js in used in index.js
